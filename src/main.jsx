@@ -6,6 +6,6 @@ import "bootstrap/dist/css/bootstrap.min.css"
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <App nombre="Steven" edad = "25" />
+    <App nombre="Steven" edad="25" />
   </StrictMode>,
 )
