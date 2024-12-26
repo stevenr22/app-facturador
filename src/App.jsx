@@ -1,12 +1,9 @@
 import './App.css'
-function App() {
-  
-
-  return (
+export default function Nombre_Componente(props){
+  return(
     <>
-    <p>Hola factura</p>
+      <p className='fw-bold'>Hola {props.nombre}, tu edad es {props.edad}.</p>
     </>
   )
 }
 
-export default App
